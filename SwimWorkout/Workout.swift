@@ -26,4 +26,5 @@ struct Workout: Identifiable {
     let endDate: Date
     let lapLengthInMeters: Int?
     let swimmingLocationType: SwimmingLocationType
+    let segments: [WorkoutSegment]
 }
