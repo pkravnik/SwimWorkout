@@ -1,0 +1,66 @@
+//
+//  WorkoutList.swift
+//  SwimWorkout
+//
+//  Created by Petr Kravnik on 19.11.2024.
+//
+
+import SwiftUI
+
+struct WorkoutList: View {
+    @State var workoutStore: WorkoutStore = WorkoutStore(dataProvider: .testLoading)
+    var body: some View {
+        NavigationStack {
+            Group {
+                switch workoutStore.loadingState {
+                case .loading:
+                    ProgressView()
+                        .frame(width: 300, height: 300)
+                        .accessibilityIdentifier("progressViewProductList")
+                        .task {
+                            await workoutStore.fetchWorkouts()
+                        }
+                case .empty:
+                    ContentUnavailableView {
+                        Label {
+                            Text("No Workouts Found")
+                        } icon: {
+                            Image("question")
+                                .resizable()
+                                .frame(width: 100, height: 100)
+                        }
+                    } description : {
+                        Text("More workouts will come soon")
+                    } actions: {
+                        Button {
+                            Task {
+                                await workoutStore.fetchWorkouts()
+                            }
+                        } label: {
+                            Text("Retry")
+                                .font(.title)
+                        }
+                    }
+                case .loaded(let workouts):
+                    List(workouts) { workout in
+                        WorkoutCell(workout: workout)
+                    }
+                    .accessibilityIdentifier("workoutList")
+                    .refreshable {
+                        await workoutStore.fetchWorkouts()
+                    }
+                case .error(let message):
+                    ContentUnavailableView(
+                        "There was a problem reaching the server. Please try again later.",
+                        systemImage: "icloud.slash",
+                        description: Text(message)
+                    )
+                }
+            }
+        }
+    }
+}
+
+#Preview {
+    WorkoutList(workoutStore: WorkoutStore(dataProvider: .testSuccess))
+}

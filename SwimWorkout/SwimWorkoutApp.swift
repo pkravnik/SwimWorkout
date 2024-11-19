@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import HealthKit
+
+let store = HKHealthStore()
 
 @main
 struct SwimWorkoutApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WorkoutList()
         }
     }
 }
