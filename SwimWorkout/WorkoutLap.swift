@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct WorkoutLap: Identifiable {
+struct WorkoutLap: Identifiable, Hashable {
     let id = UUID()
     let startDate: Date
     let endDate: Date

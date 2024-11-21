@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct WorkoutSegment: Identifiable {
+struct WorkoutSegment: Identifiable, Hashable {
     let id = UUID()
     let duration: TimeInterval
     let laps: [WorkoutLap]

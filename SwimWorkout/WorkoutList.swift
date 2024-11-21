@@ -43,7 +43,9 @@ struct WorkoutList: View {
                     }
                 case .loaded(let workouts):
                     List(workouts) { workout in
-                        WorkoutCell(workout: workout)
+                        NavigationLink(value: workout) {
+                            WorkoutCell(workout: workout)
+                        }
                     }
                     .accessibilityIdentifier("workoutList")
                     .refreshable {
@@ -56,6 +58,10 @@ struct WorkoutList: View {
                         description: Text(message)
                     )
                 }
+            }
+            .navigationTitle("Workouts")
+            .navigationDestination(for: Workout.self) { workout in
+                WorkoutDetail(workout: workout)
             }
         }
     }

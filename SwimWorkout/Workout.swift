@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Workout: Identifiable {
+struct Workout: Identifiable, Hashable {
     enum SwimmingLocationType {
         case openWater
         case pool
