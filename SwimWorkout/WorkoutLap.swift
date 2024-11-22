@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct WorkoutLap: Identifiable, Hashable {
+struct WorkoutLap: Identifiable, Hashable, Codable {
     let id = UUID()
     let startDate: Date
     let endDate: Date
@@ -25,5 +25,12 @@ struct WorkoutLap: Identifiable, Hashable {
     
     var duration: Range<Date> {
         startDate..<endDate
+    }
+    
+    enum CodingKeys: CodingKey {
+        case startDate
+        case endDate
+        case strokeCount
+        case lapLengthInMeters
     }
 }

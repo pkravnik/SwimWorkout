@@ -1,0 +1,44 @@
+[
+    {
+        "startDate": "2024-11-20 12:05:00",
+        "endDate": "2024-11-20 12:57:20",
+        "lapLengthInMeters": 50,
+        "swimmingLocationType": "openWater",
+        "segments": [
+            {
+                "duration": 1250,
+                "laps": [
+                    {
+                        "startDate": "2024-11-20 12:05:00",
+                        "endDate": "2024-11-20 12:07:00",
+                        "strokeCount": 28,
+                        "lapLengthInMeters": 50
+                    },
+                    {
+                        "startDate": "2024-11-20 12:07:00",
+                        "endDate": "2024-11-20 12:09:10",
+                        "strokeCount": 29,
+                        "lapLengthInMeters": 50
+                    },
+                    {
+                        "startDate": "2024-11-20 12:09:10",
+                        "endDate": "2024-11-20 12:11:25",
+                        "strokeCount": 31,
+                        "lapLengthInMeters": 50
+                    }
+                ]
+            },
+            {
+                "duration": 2400,
+                "laps": []
+            }
+        ]
+    },
+    {
+        "startDate": "2024-11-18 11:03:35",
+        "endDate": "2024-11-18 11:52:10",
+        "lapLengthInMeters": 50,
+        "swimmingLocationType": "pool",
+        "segments": []
+    }
+]

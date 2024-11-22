@@ -9,13 +9,17 @@ import Foundation
 
 extension Workout {
     static var sample: [Workout] {
-        let dates: [Date: Int] = [
-            Date.now : 45,
-            Calendar.current.date(byAdding: .day, value: -1, to: Date.now)! : 41,
-            Calendar.current.date(byAdding: .day, value: 1, to: Date.now)! : 52
-        ]
-        return dates.map { (date, minutes) in
-            Workout(startDate: date, endDate: Calendar.current.date(byAdding: .minute, value: minutes, to: date)!, lapLengthInMeters: nil, swimmingLocationType: .pool, segments: [])
-        }
+        guard let url = Bundle.main.url(forResource: "MockData", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let workouts = try? decoder.decode([Workout].self, from: data) else { return [] }
+        return workouts
     }
+    
+    static let decoder: JSONDecoder = {
+        let decoder = JSONDecoder()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        decoder.dateDecodingStrategy = .formatted(formatter)
+        return decoder
+    }()
 }

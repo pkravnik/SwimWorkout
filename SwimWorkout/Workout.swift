@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Workout: Identifiable, Hashable {
-    enum SwimmingLocationType {
+struct Workout: Identifiable, Hashable, Codable {
+    enum SwimmingLocationType: String, Codable {
         case openWater
         case pool
         case unknown
@@ -27,4 +27,12 @@ struct Workout: Identifiable, Hashable {
     let lapLengthInMeters: Int?
     let swimmingLocationType: SwimmingLocationType
     let segments: [WorkoutSegment]
+    
+    enum CodingKeys: CodingKey {
+        case startDate
+        case endDate
+        case lapLengthInMeters
+        case swimmingLocationType
+        case segments
+    }
 }
