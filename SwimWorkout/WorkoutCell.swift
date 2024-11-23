@@ -17,3 +17,7 @@ struct WorkoutCell: View {
         }
     }
 }
+
+#Preview(traits: .listEmbedded) {
+    WorkoutCell(workout: Workout.sample[0])
+}

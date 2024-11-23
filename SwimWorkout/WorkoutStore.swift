@@ -11,6 +11,7 @@ import OSLog
 @Observable
 final class WorkoutStore {
     enum LoadingState {
+        case notStarted
         case loading
         case loaded(result: [Workout])
         case empty
@@ -18,10 +19,15 @@ final class WorkoutStore {
     }
     
     private let dataProvider: WorkoutDataProvider
-    var loadingState: LoadingState = .loading
+    private(set) var loadingState: LoadingState = .notStarted
     
-    init(dataProvider: WorkoutDataProvider = .live) {
+    init(dataProvider: WorkoutDataProvider = .live, loadingState: LoadingState = .notStarted) {
         self.dataProvider = dataProvider
+        self.loadingState = loadingState
+    }
+    
+    public func healthStorePermissionsGranted() {
+        loadingState = .loading
     }
     
     @MainActor

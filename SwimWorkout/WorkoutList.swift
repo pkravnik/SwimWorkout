@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct WorkoutList: View {
-    @State var workoutStore: WorkoutStore = WorkoutStore(dataProvider: .testLoading)
+    @Environment(WorkoutStore.self) private var workoutStore: WorkoutStore
     var body: some View {
         NavigationStack {
             Group {
                 switch workoutStore.loadingState {
+                case .notStarted:
+                    Text("Please give access to HealthKit data")
                 case .loading:
                     ProgressView()
                         .frame(width: 300, height: 300)
@@ -68,5 +70,6 @@ struct WorkoutList: View {
 }
 
 #Preview {
-    WorkoutList(workoutStore: WorkoutStore(dataProvider: .testSuccess))
+    WorkoutList()
+        .environment(WorkoutStore(dataProvider: .testSuccess, loadingState: .loading))
 }
