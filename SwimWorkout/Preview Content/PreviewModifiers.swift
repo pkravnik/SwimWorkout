@@ -15,6 +15,18 @@ struct ListEmbedded: PreviewModifier {
     }
 }
 
+struct NavEmbedded: PreviewModifier {
+    func body(content: Content, context: Void) -> some View {
+        NavigationStack {
+            content
+        }
+    }
+}
+
 extension PreviewTrait where T == Preview.ViewTraits {
     static var listEmbedded: Self = .modifier(ListEmbedded())
+}
+
+extension PreviewTrait where T == Preview.ViewTraits {
+    static var navEmbedded: Self = .modifier(NavEmbedded())
 }

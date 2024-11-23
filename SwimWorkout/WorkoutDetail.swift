@@ -18,3 +18,7 @@ struct WorkoutDetail: View {
         .navigationBarTitleDisplayMode(.inline)
     }
 }
+
+#Preview(traits: .navEmbedded) {
+    WorkoutDetail(workout: Workout.sample[0])
+}
