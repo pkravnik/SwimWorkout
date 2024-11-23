@@ -4,6 +4,8 @@
         "endDate": "2024-11-20 12:57:20",
         "lapLengthInMeters": 50,
         "swimmingLocationType": "openWater",
+        "distanceInMeters": 1500,
+        "kilocalories": 540,
         "segments": [
             {
                 "duration": 1250,
@@ -39,6 +41,16 @@
         "endDate": "2024-11-18 11:52:10",
         "lapLengthInMeters": 50,
         "swimmingLocationType": "pool",
+        "distanceInMeters": 1700,
+        "kilocalories": 610,
+        "segments": []
+    },
+    {
+        "startDate": "2024-11-20 11:03:35",
+        "endDate": "2024-11-20 11:52:10",
+        "lapLengthInMeters": 50,
+        "swimmingLocationType": "pool",
+        "kilocalories": 610,
         "segments": []
     }
 ]

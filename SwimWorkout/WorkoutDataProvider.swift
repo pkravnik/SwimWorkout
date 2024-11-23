@@ -22,7 +22,7 @@ extension WorkoutDataProvider {
             limit: 20)
         let hkWorkouts = try await descriptor.result(for: store)
         let workouts: [Workout] = hkWorkouts.map { hkWorkout in
-            Workout(startDate: hkWorkout.startDate, endDate: hkWorkout.endDate, lapLengthInMeters: nil, swimmingLocationType: .pool, segments: [])
+            Workout(startDate: hkWorkout.startDate, endDate: hkWorkout.endDate, lapLengthInMeters: nil, swimmingLocationType: .pool, distanceInMeters: nil, kilocalories: nil, segments: [])
         }
 //        let workouts = try await hkWorkouts.asyncMap { workout in
 //            let laps = try await fetchLaps(for: workout)

@@ -24,15 +24,31 @@ struct Workout: Identifiable, Hashable, Codable {
     let id = UUID()
     let startDate: Date
     let endDate: Date
-    let lapLengthInMeters: Int?
+    let lapLengthInMeters: Double?
     let swimmingLocationType: SwimmingLocationType
+    let distanceInMeters: Double?
+    let kilocalories: Double?
     let segments: [WorkoutSegment]
+    
+    var distanceWithUnit: Measurement<UnitLength>? {
+        distanceInMeters.map { Measurement(value: $0, unit: .meters) }
+    }
+    
+    var lapLengthWithUnit: Measurement<UnitLength>? {
+        lapLengthInMeters.map { Measurement(value: $0, unit: .meters)}
+    }
+    
+    var caloriesWithUnit: Measurement<UnitEnergy>? {
+        kilocalories.map { Measurement(value: $0, unit: .kilocalories)}
+    }
     
     enum CodingKeys: CodingKey {
         case startDate
         case endDate
         case lapLengthInMeters
         case swimmingLocationType
+        case distanceInMeters
+        case kilocalories
         case segments
     }
 }

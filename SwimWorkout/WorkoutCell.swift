@@ -11,9 +11,26 @@ struct WorkoutCell: View {
     let workout: Workout
     var body: some View {
         HStack {
-            Text(workout.startDate, format: .dateTime)
+            VStack(alignment: .leading) {
+                Text(workout.startDate, format: Date.FormatStyle(date: .long))
+                Text(workout.swimmingLocationType.title)
+                optionalMeasurement(workout.lapLengthWithUnit)
+            }
+            
             Spacer()
-            Text(DateInterval(start: workout.startDate, end: workout.endDate).duration.formatted(.number))
+            VStack(alignment: .trailing) {
+                Text(workout.startDate..<workout.endDate, format: .timeDuration)
+                optionalMeasurement(workout.distanceWithUnit)
+                optionalMeasurement(workout.caloriesWithUnit)
+            }
+        }
+    }
+    
+    func optionalMeasurement<T: Dimension>(_ value: Measurement<T>?) -> some View {
+        if let value {
+            Text(value, format: .measurement(width: .abbreviated, usage: .asProvided))
+        } else {
+            Text("No data")
         }
     }
 }
