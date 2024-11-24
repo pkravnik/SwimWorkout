@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Workout: Identifiable, Hashable, Codable {
+struct Workout: Identifiable, Hashable {
     enum SwimmingLocationType: String, Codable {
         case openWater
         case pool
@@ -26,13 +26,9 @@ struct Workout: Identifiable, Hashable, Codable {
     let endDate: Date
     let lapLengthInMeters: Double?
     let swimmingLocationType: SwimmingLocationType
-    let distanceInMeters: Double?
+    let distanceInMeters: Double
     let kilocalories: Double?
     let segments: [WorkoutSegment]
-    
-    var distanceWithUnit: Measurement<UnitLength>? {
-        distanceInMeters.map { Measurement(value: $0, unit: .meters) }
-    }
     
     var lapLengthWithUnit: Measurement<UnitLength>? {
         lapLengthInMeters.map { Measurement(value: $0, unit: .meters)}
@@ -41,7 +37,15 @@ struct Workout: Identifiable, Hashable, Codable {
     var caloriesWithUnit: Measurement<UnitEnergy>? {
         kilocalories.map { Measurement(value: $0, unit: .kilocalories)}
     }
-    
+}
+
+extension Workout: WorkoutStatistic {
+    var strokeCounts: [Int] {
+        segments.flatMap(\.strokeCounts)
+    }
+}
+
+extension Workout: Codable {
     enum CodingKeys: CodingKey {
         case startDate
         case endDate

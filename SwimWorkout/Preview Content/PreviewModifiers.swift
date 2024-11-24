@@ -19,6 +19,9 @@ struct NavEmbedded: PreviewModifier {
     func body(content: Content, context: Void) -> some View {
         NavigationStack {
             content
+                .navigationDestination(for: WorkoutSegment.self) { segment in
+                    WorkoutSegmentDetail(segment: segment)
+                }
         }
     }
 }

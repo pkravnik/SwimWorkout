@@ -65,6 +65,9 @@ struct WorkoutList: View {
             .navigationDestination(for: Workout.self) { workout in
                 WorkoutDetail(workout: workout)
             }
+            .navigationDestination(for: WorkoutSegment.self) { segment in
+                WorkoutSegmentDetail(segment: segment)
+            }
         }
     }
 }
