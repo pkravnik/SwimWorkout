@@ -12,6 +12,7 @@ public protocol WorkoutStatistic {
     var endDate: Date { get }
     var distanceInMeters: Double { get }
     var strokeCounts: [Int] { get }
+    var swimmingDurationInSeconds: TimeInterval { get }
 }
 
 extension WorkoutStatistic {
@@ -34,5 +35,9 @@ extension WorkoutStatistic {
     var averageStrokeCount: Double? {
         guard strokeCounts.count > 0 else { return nil }
         return Double(strokeCounts.reduce(0, +)) / Double(strokeCounts.count)
+    }
+    
+    var swimmingDuration: Range<Date> {
+        startDate..<Date(timeInterval: swimmingDurationInSeconds, since: startDate)
     }
 }

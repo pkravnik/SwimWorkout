@@ -23,6 +23,10 @@ extension WorkoutSegment: WorkoutStatistic {
     var strokeCounts: [Int] {
         laps.compactMap(\.strokeCount)
     }
+    
+    var swimmingDurationInSeconds: TimeInterval {
+        laps.map(\.swimmingDurationInSeconds).reduce(0, +)
+    }
 }
 
 extension WorkoutSegment: Codable {

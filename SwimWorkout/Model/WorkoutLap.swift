@@ -21,6 +21,9 @@ extension WorkoutLap: WorkoutStatistic {
         guard let strokeCount else { return [] }
         return [strokeCount]
     }
+    var swimmingDurationInSeconds: TimeInterval {
+        durationInSeconds
+    }
 }
 
 extension WorkoutLap: Codable {

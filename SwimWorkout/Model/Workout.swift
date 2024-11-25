@@ -26,7 +26,6 @@ struct Workout: Identifiable, Hashable {
     let endDate: Date
     let lapLengthInMeters: Double?
     let swimmingLocationType: SwimmingLocationType
-    let distanceInMeters: Double
     let kilocalories: Double?
     let segments: [WorkoutSegment]
     
@@ -40,8 +39,16 @@ struct Workout: Identifiable, Hashable {
 }
 
 extension Workout: WorkoutStatistic {
+    var distanceInMeters: Double {
+        segments.map(\.distanceInMeters).reduce(0, +)
+    }
+    
     var strokeCounts: [Int] {
         segments.flatMap(\.strokeCounts)
+    }
+    
+    var swimmingDurationInSeconds: TimeInterval {
+        segments.map(\.swimmingDurationInSeconds).reduce(0, +)
     }
 }
 
@@ -51,7 +58,6 @@ extension Workout: Codable {
         case endDate
         case lapLengthInMeters
         case swimmingLocationType
-        case distanceInMeters
         case kilocalories
         case segments
     }

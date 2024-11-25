@@ -15,9 +15,16 @@ struct WorkoutDetail: View {
                 LabeledContent("Date", value: workout.startDate, format: Date.FormatStyle(date: .long))
                 LabeledContent("Location", value: workout.swimmingLocationType.title)
                 LabeledContent("Duration", value: workout.duration, format: .timeDuration)
-//                optionalMeasurement(workout.lapLengthWithUnit)
-//                optionalMeasurement(workout.distanceWithUnit)
-//                optionalMeasurement(workout.caloriesWithUnit)
+                LabeledContent("Swimming Time", value: workout.swimmingDuration, format: .timeDuration)
+                LabeledContent("Distance", value: workout.distanceWithUnit, format: .measurement(width: .abbreviated, usage: .asProvided))
+                LabeledContent("Average speed", value: workout.averageSpeedWithUnit, format: .measurement(width: .abbreviated, usage: .asProvided, numberFormatStyle: .number.precision(.fractionLength(1))))
+                LabeledContent("Average stokes") {
+                    if let strokes = workout.averageStrokeCount {
+                        Text("\(strokes, specifier: "%.1f") strokes")
+                    } else {
+                        Text("Unknown")
+                    }
+                }
             }
             
             Section("Segments") {

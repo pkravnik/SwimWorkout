@@ -13,6 +13,7 @@ struct WorkoutSegmentDetail: View {
         Form {
             Section("Segment \(segment.segmentNo)") {
                 LabeledContent("Duration", value: segment.duration, format: .timeDuration)
+                LabeledContent("Swimming Time", value: segment.swimmingDuration, format: .timeDuration)
                 LabeledContent("Distance", value: segment.distanceWithUnit, format: .measurement(width: .abbreviated, usage: .asProvided))
                 LabeledContent("Average speed", value: segment.averageSpeedWithUnit, format: .measurement(width: .abbreviated, usage: .asProvided, numberFormatStyle: .number.precision(.fractionLength(1))))
                 LabeledContent("Average stokes") {
