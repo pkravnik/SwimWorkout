@@ -6,26 +6,14 @@
 //
 
 import Foundation
+import HealthKit
 
 struct Workout: Identifiable, Hashable {
-    enum SwimmingLocationType: String, Codable {
-        case openWater
-        case pool
-        case unknown
-        
-        var title: String {
-            switch self {
-            case .openWater: return "Open water"
-            case .pool: return "Pool"
-            case .unknown: return "Unknown"
-            }
-        }
-    }
     let id = UUID()
     let startDate: Date
     let endDate: Date
     let lapLengthInMeters: Double?
-    let swimmingLocationType: SwimmingLocationType
+    let swimmingLocationType: HKWorkoutSwimmingLocationType
     let kilocalories: Double?
     let segments: [WorkoutSegment]
     

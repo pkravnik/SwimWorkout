@@ -15,6 +15,17 @@ extension Workout {
         return workouts
     }
     
+    static var sampleMock: [Workout] {
+        guard let url = Bundle.main.url(forResource: "Mock", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let workoutsI = try? decoder.decode([ImportModel.Workout].self, from: data) else { return [] }
+        
+        let workouts = workoutsI.map { workoutI in
+            Workout(startDate: workoutI.startDate, endDate: workoutI.endDate, lapLengthInMeters: workoutI.lapLength, swimmingLocationType: workoutI.swimmingLocationType, kilocalories: nil, segments: [])
+        }
+        return workouts
+    }
+    
     static let decoder: JSONDecoder = {
         let decoder = JSONDecoder()
         let formatter = DateFormatter()

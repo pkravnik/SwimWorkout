@@ -1,0 +1,1504 @@
+[
+  {
+    "timeZone": "Europe/Zurich",
+    "averageMETs": 10.741338501009453,
+    "lapLength": 50,
+    "swimmingLocationType": 1,
+    "events": [
+      {
+        "sWOLFScore": 99.72703955769539,
+        "endDate": "2024-11-27 12:22:15",
+        "type": 7,
+        "startDate": "2024-11-27 11:57:08"
+      },
+      {
+        "endDate": "2024-11-27 11:58:12",
+        "startDate": "2024-11-27 11:57:13",
+        "type": 3,
+        "sWOLFScore": 79.83976471424103
+      },
+      {
+        "endDate": "2024-11-27 11:59:24",
+        "type": 3,
+        "sWOLFScore": 94.8532919883728,
+        "startDate": "2024-11-27 11:58:16"
+      },
+      {
+        "startDate": "2024-11-27 11:59:29",
+        "type": 3,
+        "sWOLFScore": 94.61532056331635,
+        "endDate": "2024-11-27 12:00:38"
+      },
+      {
+        "type": 3,
+        "startDate": "2024-11-27 12:00:42",
+        "endDate": "2024-11-27 12:01:52",
+        "sWOLFScore": 97.03012681007385
+      },
+      {
+        "type": 3,
+        "sWOLFScore": 100.1983472108841,
+        "startDate": "2024-11-27 12:01:55",
+        "endDate": "2024-11-27 12:03:07"
+      },
+      {
+        "startDate": "2024-11-27 12:03:10",
+        "type": 3,
+        "sWOLFScore": 101.72041296958923,
+        "endDate": "2024-11-27 12:04:22"
+      },
+      {
+        "endDate": "2024-11-27 12:05:40",
+        "startDate": "2024-11-27 12:04:26",
+        "type": 3,
+        "sWOLFScore": 103.17585289478302
+      },
+      {
+        "endDate": "2024-11-27 12:06:55",
+        "startDate": "2024-11-27 12:05:40",
+        "type": 3,
+        "sWOLFScore": 103.81837737560272
+      },
+      {
+        "type": 3,
+        "sWOLFScore": 98.23062229156494,
+        "endDate": "2024-11-27 12:08:11",
+        "startDate": "2024-11-27 12:07:01"
+      },
+      {
+        "type": 3,
+        "endDate": "2024-11-27 12:09:25",
+        "sWOLFScore": 98.47386884689331,
+        "startDate": "2024-11-27 12:08:16"
+      },
+      {
+        "startDate": "2024-11-27 12:09:30",
+        "type": 3,
+        "sWOLFScore": 102.17193853855133,
+        "endDate": "2024-11-27 12:10:43"
+      },
+      {
+        "type": 3,
+        "endDate": "2024-11-27 12:11:59",
+        "sWOLFScore": 99.3750069141388,
+        "startDate": "2024-11-27 12:10:47"
+      },
+      {
+        "endDate": "2024-11-27 12:13:17",
+        "sWOLFScore": 104.96890914440155,
+        "startDate": "2024-11-27 12:12:02",
+        "type": 3
+      },
+      {
+        "sWOLFScore": 98.35500204563141,
+        "endDate": "2024-11-27 12:14:32",
+        "startDate": "2024-11-27 12:13:21",
+        "type": 3
+      },
+      {
+        "type": 3,
+        "endDate": "2024-11-27 12:15:51",
+        "sWOLFScore": 102.83466827869415,
+        "startDate": "2024-11-27 12:14:37"
+      },
+      {
+        "startDate": "2024-11-27 12:15:56",
+        "sWOLFScore": 98.73258864879608,
+        "endDate": "2024-11-27 12:17:07",
+        "type": 3
+      },
+      {
+        "sWOLFScore": 107.85003530979156,
+        "type": 3,
+        "endDate": "2024-11-27 12:18:26",
+        "startDate": "2024-11-27 12:17:08"
+      },
+      {
+        "endDate": "2024-11-27 12:19:41",
+        "type": 3,
+        "sWOLFScore": 104.01919162273407,
+        "startDate": "2024-11-27 12:18:26"
+      },
+      {
+        "sWOLFScore": 101.83447754383087,
+        "type": 3,
+        "endDate": "2024-11-27 12:20:58",
+        "startDate": "2024-11-27 12:19:44"
+      },
+      {
+        "startDate": "2024-11-27 12:21:02",
+        "type": 3,
+        "endDate": "2024-11-27 12:22:15",
+        "sWOLFScore": 102.4429874420166
+      },
+      {
+        "sWOLFScore": 100.78075063228607,
+        "startDate": "2024-11-27 12:23:17",
+        "endDate": "2024-11-27 12:24:30",
+        "type": 3
+      },
+      {
+        "endDate": "2024-11-27 12:51:01",
+        "sWOLFScore": 108.95563838481903,
+        "type": 7,
+        "startDate": "2024-11-27 12:23:17"
+      },
+      {
+        "sWOLFScore": 101.98123168945312,
+        "type": 3,
+        "endDate": "2024-11-27 12:25:48",
+        "startDate": "2024-11-27 12:24:35"
+      },
+      {
+        "sWOLFScore": 111.48012554645538,
+        "endDate": "2024-11-27 12:27:12",
+        "startDate": "2024-11-27 12:25:52",
+        "type": 3
+      },
+      {
+        "endDate": "2024-11-27 12:28:35",
+        "startDate": "2024-11-27 12:27:15",
+        "sWOLFScore": 109.36583828926086,
+        "type": 3
+      },
+      {
+        "sWOLFScore": 104.26380145549774,
+        "endDate": "2024-11-27 12:29:56",
+        "type": 3,
+        "startDate": "2024-11-27 12:28:40"
+      },
+      {
+        "endDate": "2024-11-27 12:31:23",
+        "startDate": "2024-11-27 12:30:02",
+        "type": 3,
+        "sWOLFScore": 111.20285725593567
+      },
+      {
+        "sWOLFScore": 105.83600687980652,
+        "endDate": "2024-11-27 12:32:45",
+        "startDate": "2024-11-27 12:31:28",
+        "type": 3
+      },
+      {
+        "startDate": "2024-11-27 12:32:50",
+        "sWOLFScore": 109.3258525133133,
+        "type": 3,
+        "endDate": "2024-11-27 12:34:09"
+      },
+      {
+        "startDate": "2024-11-27 12:34:16",
+        "endDate": "2024-11-27 12:35:36",
+        "type": 3,
+        "sWOLFScore": 110.29572355747223
+      },
+      {
+        "type": 3,
+        "endDate": "2024-11-27 12:37:02",
+        "startDate": "2024-11-27 12:35:37",
+        "sWOLFScore": 116.9273966550827
+      },
+      {
+        "endDate": "2024-11-27 12:38:28",
+        "type": 3,
+        "startDate": "2024-11-27 12:37:02",
+        "sWOLFScore": 117.54978621006012
+      },
+      {
+        "sWOLFScore": 111.76497197151184,
+        "startDate": "2024-11-27 12:38:30",
+        "type": 3,
+        "endDate": "2024-11-27 12:39:52"
+      },
+      {
+        "endDate": "2024-11-27 12:41:13",
+        "sWOLFScore": 107.81364023685455,
+        "type": 3,
+        "startDate": "2024-11-27 12:39:55"
+      },
+      {
+        "endDate": "2024-11-27 12:42:34",
+        "sWOLFScore": 101.98882496356964,
+        "type": 3,
+        "startDate": "2024-11-27 12:41:19"
+      },
+      {
+        "endDate": "2024-11-27 12:43:58",
+        "sWOLFScore": 112.78511261940002,
+        "type": 3,
+        "startDate": "2024-11-27 12:42:36"
+      },
+      {
+        "endDate": "2024-11-27 12:45:21",
+        "sWOLFScore": 105.5951577425003,
+        "startDate": "2024-11-27 12:44:04",
+        "type": 3
+      },
+      {
+        "startDate": "2024-11-27 12:45:25",
+        "sWOLFScore": 111.70093500614166,
+        "type": 3,
+        "endDate": "2024-11-27 12:46:46"
+      },
+      {
+        "startDate": "2024-11-27 12:46:52",
+        "type": 3,
+        "endDate": "2024-11-27 12:48:11",
+        "sWOLFScore": 110.28546500205994
+      },
+      {
+        "endDate": "2024-11-27 12:49:37",
+        "startDate": "2024-11-27 12:48:16",
+        "sWOLFScore": 111.27927458286285,
+        "type": 3
+      },
+      {
+        "sWOLFScore": 106.89001488685608,
+        "startDate": "2024-11-27 12:49:43",
+        "endDate": "2024-11-27 12:51:01",
+        "type": 3
+      }
+    ],
+    "distanceSwimming": 2000,
+    "swimmingStrokeCount": 1159,
+    "samples": [
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 11:57:13",
+        "endDate": "2024-11-27 11:58:12",
+        "value": 50
+      },
+      {
+        "endDate": "2024-11-27 11:58:12",
+        "startDate": "2024-11-27 11:57:13",
+        "value": 21,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-27 11:59:24",
+        "startDate": "2024-11-27 11:58:16",
+        "value": 50
+      },
+      {
+        "endDate": "2024-11-27 11:59:24",
+        "startDate": "2024-11-27 11:58:16",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 27
+      },
+      {
+        "endDate": "2024-11-27 12:00:38",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 11:59:29"
+      },
+      {
+        "endDate": "2024-11-27 12:00:38",
+        "value": 26,
+        "startDate": "2024-11-27 11:59:29",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "startDate": "2024-11-27 12:00:42",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-27 12:01:52",
+        "value": 50
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 27,
+        "endDate": "2024-11-27 12:01:52",
+        "startDate": "2024-11-27 12:00:42"
+      },
+      {
+        "startDate": "2024-11-27 12:01:55",
+        "value": 28,
+        "endDate": "2024-11-27 12:03:07",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "endDate": "2024-11-27 12:03:07",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 12:01:55"
+      },
+      {
+        "endDate": "2024-11-27 12:04:22",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 12:03:10"
+      },
+      {
+        "endDate": "2024-11-27 12:04:22",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-27 12:03:10",
+        "value": 29
+      },
+      {
+        "startDate": "2024-11-27 12:04:26",
+        "endDate": "2024-11-27 12:05:40",
+        "value": 29,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 12:04:26",
+        "endDate": "2024-11-27 12:05:40"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 12:05:40",
+        "endDate": "2024-11-27 12:06:55",
+        "value": 50
+      },
+      {
+        "endDate": "2024-11-27 12:06:55",
+        "value": 29,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-27 12:05:40"
+      },
+      {
+        "startDate": "2024-11-27 12:07:01",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-27 12:08:11",
+        "value": 28
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "endDate": "2024-11-27 12:08:11",
+        "startDate": "2024-11-27 12:07:01"
+      },
+      {
+        "endDate": "2024-11-27 12:09:25",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 30,
+        "startDate": "2024-11-27 12:08:16"
+      },
+      {
+        "startDate": "2024-11-27 12:08:16",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-27 12:09:25"
+      },
+      {
+        "value": 29,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-27 12:10:43",
+        "startDate": "2024-11-27 12:09:30"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 12:09:30",
+        "value": 50,
+        "endDate": "2024-11-27 12:10:43"
+      },
+      {
+        "value": 28,
+        "startDate": "2024-11-27 12:10:47",
+        "endDate": "2024-11-27 12:11:59",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 12:10:47",
+        "endDate": "2024-11-27 12:11:59"
+      },
+      {
+        "endDate": "2024-11-27 12:13:17",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "startDate": "2024-11-27 12:12:02"
+      },
+      {
+        "startDate": "2024-11-27 12:12:02",
+        "endDate": "2024-11-27 12:13:17",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 30
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 12:13:21",
+        "endDate": "2024-11-27 12:14:32",
+        "value": 50
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 27,
+        "startDate": "2024-11-27 12:13:21",
+        "endDate": "2024-11-27 12:14:32"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 29,
+        "startDate": "2024-11-27 12:14:37",
+        "endDate": "2024-11-27 12:15:51"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "endDate": "2024-11-27 12:15:51",
+        "startDate": "2024-11-27 12:14:37"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-27 12:17:07",
+        "value": 28,
+        "startDate": "2024-11-27 12:15:56"
+      },
+      {
+        "startDate": "2024-11-27 12:15:56",
+        "endDate": "2024-11-27 12:17:07",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "startDate": "2024-11-27 12:17:08",
+        "endDate": "2024-11-27 12:18:26",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50
+      },
+      {
+        "value": 30,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-27 12:17:08",
+        "endDate": "2024-11-27 12:18:26"
+      },
+      {
+        "value": 29,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-27 12:18:26",
+        "endDate": "2024-11-27 12:19:41"
+      },
+      {
+        "value": 50,
+        "endDate": "2024-11-27 12:19:41",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 12:18:26"
+      },
+      {
+        "value": 50,
+        "startDate": "2024-11-27 12:19:44",
+        "endDate": "2024-11-27 12:20:58",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-27 12:19:44",
+        "value": 28,
+        "endDate": "2024-11-27 12:20:58"
+      },
+      {
+        "endDate": "2024-11-27 12:22:15",
+        "startDate": "2024-11-27 12:21:02",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "endDate": "2024-11-27 12:22:15",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-27 12:21:02",
+        "value": 29
+      },
+      {
+        "startDate": "2024-11-27 12:23:17",
+        "endDate": "2024-11-27 12:24:30",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 28
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-27 12:24:30",
+        "startDate": "2024-11-27 12:23:17",
+        "value": 50
+      },
+      {
+        "value": 50,
+        "startDate": "2024-11-27 12:24:35",
+        "endDate": "2024-11-27 12:25:48",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "endDate": "2024-11-27 12:25:48",
+        "startDate": "2024-11-27 12:24:35",
+        "value": 29,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-27 12:27:12",
+        "startDate": "2024-11-27 12:25:52"
+      },
+      {
+        "endDate": "2024-11-27 12:27:12",
+        "value": 31,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-27 12:25:52"
+      },
+      {
+        "startDate": "2024-11-27 12:27:15",
+        "endDate": "2024-11-27 12:28:35",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50
+      },
+      {
+        "value": 30,
+        "endDate": "2024-11-27 12:28:35",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-27 12:27:15"
+      },
+      {
+        "startDate": "2024-11-27 12:28:40",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-27 12:29:56",
+        "value": 28
+      },
+      {
+        "startDate": "2024-11-27 12:28:40",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-27 12:29:56",
+        "value": 50
+      },
+      {
+        "value": 30,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-27 12:30:02",
+        "endDate": "2024-11-27 12:31:23"
+      },
+      {
+        "endDate": "2024-11-27 12:31:23",
+        "startDate": "2024-11-27 12:30:02",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-27 12:32:45",
+        "value": 29,
+        "startDate": "2024-11-27 12:31:28"
+      },
+      {
+        "endDate": "2024-11-27 12:32:45",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 12:31:28",
+        "value": 50
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "startDate": "2024-11-27 12:32:50",
+        "endDate": "2024-11-27 12:34:09"
+      },
+      {
+        "startDate": "2024-11-27 12:32:50",
+        "value": 30,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-27 12:34:09"
+      },
+      {
+        "startDate": "2024-11-27 12:34:16",
+        "endDate": "2024-11-27 12:35:36",
+        "value": 31,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "startDate": "2024-11-27 12:34:16",
+        "endDate": "2024-11-27 12:35:36"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 32,
+        "endDate": "2024-11-27 12:37:02",
+        "startDate": "2024-11-27 12:35:37"
+      },
+      {
+        "value": 50,
+        "startDate": "2024-11-27 12:35:37",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-27 12:37:02"
+      },
+      {
+        "startDate": "2024-11-27 12:37:02",
+        "endDate": "2024-11-27 12:38:28",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-27 12:37:02",
+        "value": 32,
+        "endDate": "2024-11-27 12:38:28"
+      },
+      {
+        "endDate": "2024-11-27 12:39:52",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "startDate": "2024-11-27 12:38:30"
+      },
+      {
+        "endDate": "2024-11-27 12:39:52",
+        "startDate": "2024-11-27 12:38:30",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 30
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 12:39:55",
+        "value": 50,
+        "endDate": "2024-11-27 12:41:13"
+      },
+      {
+        "startDate": "2024-11-27 12:39:55",
+        "endDate": "2024-11-27 12:41:13",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 29
+      },
+      {
+        "endDate": "2024-11-27 12:42:34",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 12:41:19"
+      },
+      {
+        "startDate": "2024-11-27 12:41:19",
+        "value": 27,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-27 12:42:34"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "startDate": "2024-11-27 12:42:36",
+        "endDate": "2024-11-27 12:43:58"
+      },
+      {
+        "startDate": "2024-11-27 12:42:36",
+        "value": 31,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-27 12:43:58"
+      },
+      {
+        "value": 29,
+        "endDate": "2024-11-27 12:45:21",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-27 12:44:04"
+      },
+      {
+        "value": 50,
+        "startDate": "2024-11-27 12:44:04",
+        "endDate": "2024-11-27 12:45:21",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "startDate": "2024-11-27 12:45:25",
+        "value": 31,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-27 12:46:46"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 12:45:25",
+        "value": 50,
+        "endDate": "2024-11-27 12:46:46"
+      },
+      {
+        "startDate": "2024-11-27 12:46:52",
+        "endDate": "2024-11-27 12:48:11",
+        "value": 31,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-27 12:46:52",
+        "endDate": "2024-11-27 12:48:11",
+        "value": 50
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 31,
+        "endDate": "2024-11-27 12:49:37",
+        "startDate": "2024-11-27 12:48:16"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-27 12:49:37",
+        "value": 50,
+        "startDate": "2024-11-27 12:48:16"
+      },
+      {
+        "startDate": "2024-11-27 12:49:43",
+        "value": 29,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-27 12:51:01"
+      },
+      {
+        "startDate": "2024-11-27 12:49:43",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "endDate": "2024-11-27 12:51:01"
+      }
+    ],
+    "endDate": "2024-11-27 12:51:50",
+    "heartRate": 2.581491765315296,
+    "workoutActivityType": 46,
+    "startDate": "2024-11-27 11:57:08",
+    "activeEnergyBurned": 611.3348720342073,
+    "basalEnergyBurned": 83.98478885644055,
+    "indoorWorkout": false
+  },
+  {
+    "lapLength": 50,
+    "swimmingLocationType": 1,
+    "averageMETs": 11.076547603897533,
+    "events": [
+      {
+        "sWOLFScore": 98.89389824867249,
+        "startDate": "2024-11-24 20:08:40",
+        "type": 7,
+        "endDate": "2024-11-24 20:33:27"
+      },
+      {
+        "sWOLFScore": 75.47138750553131,
+        "startDate": "2024-11-24 20:08:45",
+        "endDate": "2024-11-24 20:09:41",
+        "type": 3
+      },
+      {
+        "sWOLFScore": 86.3707789182663,
+        "endDate": "2024-11-24 20:10:46",
+        "startDate": "2024-11-24 20:09:47",
+        "type": 3
+      },
+      {
+        "sWOLFScore": 95.00988399982452,
+        "startDate": "2024-11-24 20:10:50",
+        "endDate": "2024-11-24 20:11:57",
+        "type": 3
+      },
+      {
+        "startDate": "2024-11-24 20:11:59",
+        "sWOLFScore": 102.55407083034515,
+        "type": 3,
+        "endDate": "2024-11-24 20:13:13"
+      },
+      {
+        "sWOLFScore": 106.43107044696808,
+        "endDate": "2024-11-24 20:14:31",
+        "type": 3,
+        "startDate": "2024-11-24 20:13:15"
+      },
+      {
+        "startDate": "2024-11-24 20:14:31",
+        "type": 3,
+        "sWOLFScore": 105.38079845905304,
+        "endDate": "2024-11-24 20:15:46"
+      },
+      {
+        "endDate": "2024-11-24 20:17:04",
+        "sWOLFScore": 101.4934356212616,
+        "type": 3,
+        "startDate": "2024-11-24 20:15:51"
+      },
+      {
+        "startDate": "2024-11-24 20:17:06",
+        "type": 3,
+        "endDate": "2024-11-24 20:18:19",
+        "sWOLFScore": 100.35908734798431
+      },
+      {
+        "type": 3,
+        "startDate": "2024-11-24 20:18:23",
+        "endDate": "2024-11-24 20:19:33",
+        "sWOLFScore": 98.03008794784546
+      },
+      {
+        "sWOLFScore": 93.46037197113037,
+        "startDate": "2024-11-24 20:19:37",
+        "endDate": "2024-11-24 20:20:44",
+        "type": 3
+      },
+      {
+        "sWOLFScore": 97.37148702144623,
+        "startDate": "2024-11-24 20:20:49",
+        "type": 3,
+        "endDate": "2024-11-24 20:21:59"
+      },
+      {
+        "type": 3,
+        "startDate": "2024-11-24 20:22:04",
+        "sWOLFScore": 95.64477932453156,
+        "endDate": "2024-11-24 20:23:12"
+      },
+      {
+        "sWOLFScore": 98.21092522144318,
+        "endDate": "2024-11-24 20:24:27",
+        "startDate": "2024-11-24 20:23:17",
+        "type": 3
+      },
+      {
+        "sWOLFScore": 96.33777284622192,
+        "type": 3,
+        "startDate": "2024-11-24 20:24:32",
+        "endDate": "2024-11-24 20:25:41"
+      },
+      {
+        "startDate": "2024-11-24 20:25:45",
+        "type": 3,
+        "sWOLFScore": 100.02801358699799,
+        "endDate": "2024-11-24 20:26:57"
+      },
+      {
+        "sWOLFScore": 106.67591726779938,
+        "startDate": "2024-11-24 20:26:59",
+        "type": 3,
+        "endDate": "2024-11-24 20:28:15"
+      },
+      {
+        "type": 3,
+        "endDate": "2024-11-24 20:29:37",
+        "startDate": "2024-11-24 20:28:19",
+        "sWOLFScore": 108.83037328720093
+      },
+      {
+        "endDate": "2024-11-24 20:30:52",
+        "startDate": "2024-11-24 20:29:40",
+        "sWOLFScore": 101.07820689678192,
+        "type": 3
+      },
+      {
+        "endDate": "2024-11-24 20:32:10",
+        "sWOLFScore": 108.18794655799866,
+        "type": 3,
+        "startDate": "2024-11-24 20:30:52"
+      },
+      {
+        "sWOLFScore": 100.95156991481781,
+        "startDate": "2024-11-24 20:32:14",
+        "type": 3,
+        "endDate": "2024-11-24 20:33:27"
+      },
+      {
+        "endDate": "2024-11-24 20:34:52",
+        "sWOLFScore": 104.33284103870392,
+        "type": 3,
+        "startDate": "2024-11-24 20:33:39"
+      },
+      {
+        "startDate": "2024-11-24 20:33:39",
+        "type": 7,
+        "endDate": "2024-11-24 21:01:20",
+        "sWOLFScore": 111.07472803592682
+      },
+      {
+        "endDate": "2024-11-24 20:36:15",
+        "startDate": "2024-11-24 20:34:59",
+        "sWOLFScore": 108.47486972808838,
+        "type": 3
+      },
+      {
+        "type": 3,
+        "endDate": "2024-11-24 20:37:39",
+        "startDate": "2024-11-24 20:36:17",
+        "sWOLFScore": 114.79535853862762
+      },
+      {
+        "type": 3,
+        "endDate": "2024-11-24 20:38:59",
+        "startDate": "2024-11-24 20:37:43",
+        "sWOLFScore": 107.23396122455597
+      },
+      {
+        "startDate": "2024-11-24 20:39:05",
+        "type": 3,
+        "endDate": "2024-11-24 20:40:22",
+        "sWOLFScore": 108.23785281181335
+      },
+      {
+        "endDate": "2024-11-24 20:41:43",
+        "type": 3,
+        "sWOLFScore": 105.49124896526337,
+        "startDate": "2024-11-24 20:40:28"
+      },
+      {
+        "startDate": "2024-11-24 20:41:50",
+        "type": 3,
+        "sWOLFScore": 103.1157900094986,
+        "endDate": "2024-11-24 20:43:04"
+      },
+      {
+        "sWOLFScore": 108.47880697250366,
+        "startDate": "2024-11-24 20:43:06",
+        "type": 3,
+        "endDate": "2024-11-24 20:44:24"
+      },
+      {
+        "endDate": "2024-11-24 20:45:49",
+        "type": 3,
+        "startDate": "2024-11-24 20:44:28",
+        "sWOLFScore": 113.3336614370346
+      },
+      {
+        "startDate": "2024-11-24 20:45:52",
+        "type": 3,
+        "endDate": "2024-11-24 20:47:10",
+        "sWOLFScore": 110.30193507671356
+      },
+      {
+        "startDate": "2024-11-24 20:47:18",
+        "type": 3,
+        "endDate": "2024-11-24 20:48:33",
+        "sWOLFScore": 108.66182971000671
+      },
+      {
+        "endDate": "2024-11-24 20:50:00",
+        "type": 3,
+        "startDate": "2024-11-24 20:48:37",
+        "sWOLFScore": 115.81954753398895
+      },
+      {
+        "endDate": "2024-11-24 20:51:26",
+        "type": 3,
+        "sWOLFScore": 117.88381242752075,
+        "startDate": "2024-11-24 20:50:02"
+      },
+      {
+        "endDate": "2024-11-24 20:52:51",
+        "startDate": "2024-11-24 20:51:31",
+        "type": 3,
+        "sWOLFScore": 111.26582777500153
+      },
+      {
+        "startDate": "2024-11-24 20:52:56",
+        "endDate": "2024-11-24 20:54:12",
+        "type": 3,
+        "sWOLFScore": 107.30419790744781
+      },
+      {
+        "endDate": "2024-11-24 20:55:38",
+        "sWOLFScore": 119.24479055404663,
+        "type": 3,
+        "startDate": "2024-11-24 20:54:14"
+      },
+      {
+        "endDate": "2024-11-24 20:57:06",
+        "sWOLFScore": 118.61633050441742,
+        "startDate": "2024-11-24 20:55:41",
+        "type": 3
+      },
+      {
+        "type": 3,
+        "startDate": "2024-11-24 20:57:09",
+        "sWOLFScore": 113.02871096134186,
+        "endDate": "2024-11-24 20:58:29"
+      },
+      {
+        "endDate": "2024-11-24 20:59:53",
+        "sWOLFScore": 108.98067855834961,
+        "type": 3,
+        "startDate": "2024-11-24 20:58:35"
+      },
+      {
+        "sWOLFScore": 116.89250898361206,
+        "startDate": "2024-11-24 20:59:55",
+        "type": 3,
+        "endDate": "2024-11-24 21:01:20"
+      }
+    ],
+    "timeZone": "Europe/Zurich",
+    "endDate": "2024-11-24 21:01:34",
+    "startDate": "2024-11-24 20:08:39",
+    "swimmingStrokeCount": 1200,
+    "indoorWorkout": false,
+    "basalEnergyBurned": 81.22316073159983,
+    "activeEnergyBurned": 616.1960571356942,
+    "workoutActivityType": 46,
+    "samples": [
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-24 20:09:41",
+        "value": 50,
+        "startDate": "2024-11-24 20:08:45"
+      },
+      {
+        "startDate": "2024-11-24 20:08:45",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 19,
+        "endDate": "2024-11-24 20:09:41"
+      },
+      {
+        "endDate": "2024-11-24 20:10:46",
+        "startDate": "2024-11-24 20:09:47",
+        "value": 27,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "value": 50,
+        "endDate": "2024-11-24 20:10:46",
+        "startDate": "2024-11-24 20:09:47",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "endDate": "2024-11-24 20:11:57",
+        "startDate": "2024-11-24 20:10:50",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 28
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "endDate": "2024-11-24 20:11:57",
+        "startDate": "2024-11-24 20:10:50"
+      },
+      {
+        "startDate": "2024-11-24 20:11:59",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-24 20:13:13",
+        "value": 29
+      },
+      {
+        "endDate": "2024-11-24 20:13:13",
+        "value": 50,
+        "startDate": "2024-11-24 20:11:59",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "startDate": "2024-11-24 20:13:15",
+        "endDate": "2024-11-24 20:14:31",
+        "value": 31,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "startDate": "2024-11-24 20:13:15",
+        "endDate": "2024-11-24 20:14:31",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-24 20:14:31",
+        "value": 30,
+        "endDate": "2024-11-24 20:15:46"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "endDate": "2024-11-24 20:15:46",
+        "startDate": "2024-11-24 20:14:31"
+      },
+      {
+        "startDate": "2024-11-24 20:15:51",
+        "value": 28,
+        "endDate": "2024-11-24 20:17:04",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "startDate": "2024-11-24 20:15:51",
+        "endDate": "2024-11-24 20:17:04",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50
+      },
+      {
+        "startDate": "2024-11-24 20:17:06",
+        "endDate": "2024-11-24 20:18:19",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "value": 28,
+        "endDate": "2024-11-24 20:18:19",
+        "startDate": "2024-11-24 20:17:06",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "startDate": "2024-11-24 20:18:23",
+        "value": 28,
+        "endDate": "2024-11-24 20:19:33",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "endDate": "2024-11-24 20:19:33",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "startDate": "2024-11-24 20:18:23"
+      },
+      {
+        "startDate": "2024-11-24 20:19:37",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-24 20:20:44",
+        "value": 50
+      },
+      {
+        "startDate": "2024-11-24 20:19:37",
+        "value": 26,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-24 20:20:44"
+      },
+      {
+        "endDate": "2024-11-24 20:21:59",
+        "value": 27,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-24 20:20:49"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-24 20:21:59",
+        "startDate": "2024-11-24 20:20:49",
+        "value": 50
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "startDate": "2024-11-24 20:22:04",
+        "endDate": "2024-11-24 20:23:12"
+      },
+      {
+        "endDate": "2024-11-24 20:23:12",
+        "value": 27,
+        "startDate": "2024-11-24 20:22:04",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "startDate": "2024-11-24 20:23:17",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-24 20:24:27",
+        "value": 28
+      },
+      {
+        "value": 50,
+        "endDate": "2024-11-24 20:24:27",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-24 20:23:17"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-24 20:25:41",
+        "startDate": "2024-11-24 20:24:32",
+        "value": 27
+      },
+      {
+        "value": 50,
+        "startDate": "2024-11-24 20:24:32",
+        "endDate": "2024-11-24 20:25:41",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "value": 28,
+        "endDate": "2024-11-24 20:26:57",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-24 20:25:45"
+      },
+      {
+        "endDate": "2024-11-24 20:26:57",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "startDate": "2024-11-24 20:25:45"
+      },
+      {
+        "endDate": "2024-11-24 20:28:15",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-24 20:26:59",
+        "value": 30
+      },
+      {
+        "endDate": "2024-11-24 20:28:15",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "startDate": "2024-11-24 20:26:59"
+      },
+      {
+        "startDate": "2024-11-24 20:28:19",
+        "value": 50,
+        "endDate": "2024-11-24 20:29:37",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "value": 31,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-24 20:29:37",
+        "startDate": "2024-11-24 20:28:19"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 29,
+        "startDate": "2024-11-24 20:29:40",
+        "endDate": "2024-11-24 20:30:52"
+      },
+      {
+        "value": 50,
+        "endDate": "2024-11-24 20:30:52",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-24 20:29:40"
+      },
+      {
+        "startDate": "2024-11-24 20:30:52",
+        "endDate": "2024-11-24 20:32:10",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "endDate": "2024-11-24 20:32:10",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 31,
+        "startDate": "2024-11-24 20:30:52"
+      },
+      {
+        "startDate": "2024-11-24 20:32:14",
+        "value": 50,
+        "endDate": "2024-11-24 20:33:27",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "startDate": "2024-11-24 20:32:14",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 28,
+        "endDate": "2024-11-24 20:33:27"
+      },
+      {
+        "startDate": "2024-11-24 20:33:39",
+        "endDate": "2024-11-24 20:34:52",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 31
+      },
+      {
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-24 20:34:52",
+        "startDate": "2024-11-24 20:33:39"
+      },
+      {
+        "startDate": "2024-11-24 20:34:59",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-24 20:36:15",
+        "value": 32
+      },
+      {
+        "startDate": "2024-11-24 20:34:59",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "endDate": "2024-11-24 20:36:15"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-24 20:37:39",
+        "startDate": "2024-11-24 20:36:17",
+        "value": 33
+      },
+      {
+        "value": 50,
+        "endDate": "2024-11-24 20:37:39",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-24 20:36:17"
+      },
+      {
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-24 20:38:59",
+        "startDate": "2024-11-24 20:37:43"
+      },
+      {
+        "startDate": "2024-11-24 20:37:43",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 31,
+        "endDate": "2024-11-24 20:38:59"
+      },
+      {
+        "endDate": "2024-11-24 20:40:22",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-24 20:39:05"
+      },
+      {
+        "value": 31,
+        "endDate": "2024-11-24 20:40:22",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-24 20:39:05"
+      },
+      {
+        "value": 30,
+        "startDate": "2024-11-24 20:40:28",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "endDate": "2024-11-24 20:41:43"
+      },
+      {
+        "endDate": "2024-11-24 20:41:43",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-24 20:40:28"
+      },
+      {
+        "startDate": "2024-11-24 20:41:50",
+        "endDate": "2024-11-24 20:43:04",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "value": 29,
+        "endDate": "2024-11-24 20:43:04",
+        "startDate": "2024-11-24 20:41:50",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "startDate": "2024-11-24 20:43:06",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "endDate": "2024-11-24 20:44:24"
+      },
+      {
+        "endDate": "2024-11-24 20:44:24",
+        "startDate": "2024-11-24 20:43:06",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 31
+      },
+      {
+        "endDate": "2024-11-24 20:45:49",
+        "startDate": "2024-11-24 20:44:28",
+        "value": 32,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "startDate": "2024-11-24 20:44:28",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-24 20:45:49",
+        "value": 50
+      },
+      {
+        "value": 32,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-24 20:45:52",
+        "endDate": "2024-11-24 20:47:10"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-24 20:47:10",
+        "value": 50,
+        "startDate": "2024-11-24 20:45:52"
+      },
+      {
+        "endDate": "2024-11-24 20:48:33",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 33,
+        "startDate": "2024-11-24 20:47:18"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-24 20:48:33",
+        "value": 50,
+        "startDate": "2024-11-24 20:47:18"
+      },
+      {
+        "value": 33,
+        "endDate": "2024-11-24 20:50:00",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-24 20:48:37"
+      },
+      {
+        "endDate": "2024-11-24 20:50:00",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50,
+        "startDate": "2024-11-24 20:48:37"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 34,
+        "endDate": "2024-11-24 20:51:26",
+        "startDate": "2024-11-24 20:50:02"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-24 20:50:02",
+        "endDate": "2024-11-24 20:51:26",
+        "value": 50
+      },
+      {
+        "startDate": "2024-11-24 20:51:31",
+        "endDate": "2024-11-24 20:52:51",
+        "value": 32,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      },
+      {
+        "endDate": "2024-11-24 20:52:51",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-24 20:51:31",
+        "value": 50
+      },
+      {
+        "endDate": "2024-11-24 20:54:12",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-24 20:52:56",
+        "value": 31
+      },
+      {
+        "startDate": "2024-11-24 20:52:56",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "endDate": "2024-11-24 20:54:12",
+        "value": 50
+      },
+      {
+        "endDate": "2024-11-24 20:55:38",
+        "startDate": "2024-11-24 20:54:14",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 35
+      },
+      {
+        "startDate": "2024-11-24 20:54:14",
+        "endDate": "2024-11-24 20:55:38",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 34,
+        "endDate": "2024-11-24 20:57:06",
+        "startDate": "2024-11-24 20:55:41"
+      },
+      {
+        "endDate": "2024-11-24 20:57:06",
+        "startDate": "2024-11-24 20:55:41",
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming"
+      },
+      {
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-24 20:57:09",
+        "endDate": "2024-11-24 20:58:29",
+        "value": 50
+      },
+      {
+        "value": 33,
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "startDate": "2024-11-24 20:57:09",
+        "endDate": "2024-11-24 20:58:29"
+      },
+      {
+        "endDate": "2024-11-24 20:59:53",
+        "startDate": "2024-11-24 20:58:35",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount",
+        "value": 31
+      },
+      {
+        "endDate": "2024-11-24 20:59:53",
+        "startDate": "2024-11-24 20:58:35",
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "value": 50
+      },
+      {
+        "value": 50,
+        "key": "HKQuantityTypeIdentifierDistanceSwimming",
+        "startDate": "2024-11-24 20:59:55",
+        "endDate": "2024-11-24 21:01:20"
+      },
+      {
+        "endDate": "2024-11-24 21:01:20",
+        "value": 32,
+        "startDate": "2024-11-24 20:59:55",
+        "key": "HKQuantityTypeIdentifierSwimmingStrokeCount"
+      }
+    ],
+    "distanceSwimming": 2000,
+    "heartRate": 2.4819760683760683
+  }
+]

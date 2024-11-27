@@ -11,7 +11,7 @@ extension WorkoutDataProvider {
     static let testSuccess: Self = Self(
         fetchWorkouts: {
             try await Task.sleep(nanoseconds: 1000)
-            return Workout.sample
+            return Workout.sampleMock
         }
     )
     
