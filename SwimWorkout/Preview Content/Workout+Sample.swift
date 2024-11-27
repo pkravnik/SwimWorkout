@@ -21,7 +21,13 @@ extension Workout {
               let workoutsI = try? decoder.decode([ImportModel.Workout].self, from: data) else { return [] }
         
         let workouts = workoutsI.map { workoutI in
-            Workout(startDate: workoutI.startDate, endDate: workoutI.endDate, lapLengthInMeters: workoutI.lapLength, swimmingLocationType: workoutI.swimmingLocationType, kilocalories: nil, segments: [])
+            var segmentNo = 0
+            let segments = workoutI.events.filter { $0.type == .segment }.map { segmentI in
+                segmentNo += 1
+                return WorkoutSegment(segmentNo: segmentNo, startDate: segmentI.startDate, endDate: segmentI.endDate, laps: [])
+            }
+            
+            return Workout(startDate: workoutI.startDate, endDate: workoutI.endDate, lapLengthInMeters: workoutI.lapLength, swimmingLocationType: workoutI.swimmingLocationType, kilocalories: nil, segments: segments)
         }
         return workouts
     }

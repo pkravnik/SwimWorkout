@@ -17,6 +17,7 @@ import HealthKit
 
 extension HKWorkoutSwimmingLocationType: Codable { }
 extension HKWorkoutActivityType: Codable { }
+extension HKWorkoutEventType: Codable { }
 
 enum ImportModel {
     struct Workout: Codable {
@@ -38,7 +39,7 @@ enum ImportModel {
     }
     
     struct WorkoutEvent: Codable {
-        var type: Int // 7 - segment or 3 - lap
+        var type: HKWorkoutEventType // 7 - segment or 3 - lap
         var startDate: Date
         var endDate: Date
         var sWOLFScore: Double // HKMetadataKeySWOLFScore

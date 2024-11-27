@@ -23,3 +23,10 @@ extension HKWorkout {
         return HKWorkoutSwimmingLocationType(rawValue: swimmingLocationType) ?? .unknown
     }
 }
+
+extension HKWorkout {
+    var segments: [HKWorkoutEvent] {
+        guard let workoutEvents else { return [] }
+        return workoutEvents.filter { $0.type == .segment }
+    }
+}
