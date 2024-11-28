@@ -23,9 +23,14 @@ extension WorkoutDataProvider {
         let hkWorkouts = try await descriptor.result(for: store)
         let workouts: [Workout] = hkWorkouts.map { hkWorkout in
             var segmentNo = 0
-            let segments = hkWorkout.segments.map { segmentI in
+            let segments = hkWorkout.segments.map { hkEventSegment in
+                var lapNo = 0
+                let laps = hkWorkout.laps(for: hkEventSegment).map { hkEventLap in
+                    lapNo += 1
+                    return WorkoutLap(lapNo: lapNo, startDate: hkEventLap.dateInterval.start, endDate: hkEventLap.dateInterval.end, strokeCount: nil, distanceInMeters: 0)
+                }
                 segmentNo += 1
-                return WorkoutSegment(segmentNo: segmentNo, startDate: segmentI.dateInterval.start, endDate: segmentI.dateInterval.end, laps: [])
+                return WorkoutSegment(segmentNo: segmentNo, startDate: hkEventSegment.dateInterval.start, endDate: hkEventSegment.dateInterval.end, laps: laps)
             }
             return Workout(startDate: hkWorkout.startDate, endDate: hkWorkout.endDate, lapLengthInMeters: hkWorkout.lapLengthInMeters, swimmingLocationType: hkWorkout.swimmingLocationType, kilocalories: nil, segments: segments)
         }

@@ -22,9 +22,14 @@ extension Workout {
         
         let workouts = workoutsI.map { workoutI in
             var segmentNo = 0
-            let segments = workoutI.events.filter { $0.type == .segment }.map { segmentI in
+            let segments = workoutI.segments.map { segmentI in
+                var lapNo = 0
+                let laps = workoutI.laps(for: segmentI).map { lapI in
+                    lapNo += 1
+                    return WorkoutLap(lapNo: lapNo, startDate: lapI.startDate, endDate: lapI.endDate, strokeCount: nil, distanceInMeters: 0)
+                }
                 segmentNo += 1
-                return WorkoutSegment(segmentNo: segmentNo, startDate: segmentI.startDate, endDate: segmentI.endDate, laps: [])
+                return WorkoutSegment(segmentNo: segmentNo, startDate: segmentI.startDate, endDate: segmentI.endDate, laps: laps)
             }
             
             return Workout(startDate: workoutI.startDate, endDate: workoutI.endDate, lapLengthInMeters: workoutI.lapLength, swimmingLocationType: workoutI.swimmingLocationType, kilocalories: nil, segments: segments)

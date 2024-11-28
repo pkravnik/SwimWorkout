@@ -36,6 +36,18 @@ enum ImportModel {
         let heartRate: Double // HKQuantityTypeIdentifier.heartRate
         let events: [WorkoutEvent]
         let samples: [QuantitySample]
+        
+        var segments: [WorkoutEvent] {
+            events.filter { $0.type == .segment }
+        }
+        
+        private var laps: [WorkoutEvent] {
+            events.filter { $0.type == .lap }
+        }
+        
+        func laps(for segment: WorkoutEvent) -> [WorkoutEvent] {
+            laps.filter { $0.startDate >= segment.startDate && $0.endDate <= segment.endDate }
+        }
     }
     
     struct WorkoutEvent: Codable {
