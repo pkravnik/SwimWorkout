@@ -49,6 +49,7 @@ struct WorkoutList: View {
                             WorkoutCell(workout: workout)
                         }
                     }
+                    .listStyle(.plain)
                     .accessibilityIdentifier("workoutList")
                     .refreshable {
                         await workoutStore.fetchWorkouts()

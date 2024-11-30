@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import HealthKit
 
 extension Workout {
     static var sample: [Workout] {
@@ -21,12 +22,18 @@ extension Workout {
               let workoutsI = try? decoder.decode([ImportModel.Workout].self, from: data) else { return [] }
         
         let workouts = workoutsI.map { workoutI in
+            let samples = workoutI.samples
+            let samplesMerged = samples.grouped { sample in
+                sample.split
+            }
             var segmentNo = 0
             let segments = workoutI.segments.map { segmentI in
                 var lapNo = 0
                 let laps = workoutI.laps(for: segmentI).map { lapI in
                     lapNo += 1
-                    return WorkoutLap(lapNo: lapNo, startDate: lapI.startDate, endDate: lapI.endDate, strokeCount: nil, distanceInMeters: 0)
+                    let strokeCount = samplesMerged[lapI.sampleKeySwimmingStrokeCount, default: nil]
+                    let distanceInMeters: Double = samplesMerged[lapI.sampleKeyDistanceSwimming, default: nil] ?? .zero
+                    return WorkoutLap(lapNo: lapNo, startDate: lapI.startDate, endDate: lapI.endDate, strokeCount: strokeCount.map { Int($0) }, distanceInMeters: distanceInMeters)
                 }
                 segmentNo += 1
                 return WorkoutSegment(segmentNo: segmentNo, startDate: segmentI.startDate, endDate: segmentI.endDate, laps: laps)

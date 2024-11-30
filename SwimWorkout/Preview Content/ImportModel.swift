@@ -64,3 +64,23 @@ enum ImportModel {
         var value: Double
     }
 }
+
+extension ImportModel.QuantitySample {
+    var sampleKey: WorkoutSampleKey {
+        WorkoutSampleKey(startDate: self.startDate, endDate: self.endDate, quantityType: self.key)
+    }
+    
+    var split: (WorkoutSampleKey, Double?) {
+        (self.sampleKey, self.value)
+    }
+}
+
+extension ImportModel.WorkoutEvent {
+    var sampleKeyDistanceSwimming: WorkoutSampleKey {
+        WorkoutSampleKey(startDate: self.startDate, endDate: self.endDate, quantityType: HKQuantityTypeIdentifier.distanceSwimming.rawValue)
+    }
+    
+    var sampleKeySwimmingStrokeCount: WorkoutSampleKey {
+        WorkoutSampleKey(startDate: self.startDate, endDate: self.endDate, quantityType: HKQuantityTypeIdentifier.swimmingStrokeCount.rawValue)
+    }
+}
