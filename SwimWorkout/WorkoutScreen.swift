@@ -46,7 +46,11 @@ struct WorkoutScreen: View {
                     }
                 case .loaded(let workouts):
                     VStack(alignment: .leading) {
-                        CalendarView(date: .now, workouts: workouts, path: $navigationPath)
+                        CalendarView(date: .now, workouts: workouts) { day in
+                            if let workout = workouts.first(where: {$0.startDate.startOfDay == day.startOfDay} ) {
+                                navigationPath.append(workout)
+                            }
+                        }
                         Text("Latest Workouts:")
                             .font(.title3)
                             .padding(.leading)

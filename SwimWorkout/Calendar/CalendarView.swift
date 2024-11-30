@@ -19,23 +19,11 @@ struct CalendarView: View {
     let columns = Array(repeating: GridItem(.flexible()), count: 7)
     let color: Color = .blue
     @State private var days: [Date] = []
-//    let selectedActivity: Activity?
-//    @Environment(WorkoutStore.self) private var workoutStore: WorkoutStore
     let workouts: [Workout]
     @State private var counts = [Int : Int]()
-    @Binding var path: NavigationPath
+    let tapAction: (Date) -> Void
     
-    var endOfMonthAdjustment: Date { Calendar.current.date(byAdding: .day, value: 1, to: date.endOfMonth)! }
-    
-//    init(date: Date) {
-//        self.date = date
-//        self.selectedActivity = selectedActivity
-//        let endOfMonthAdjustment = Calendar.current.date(byAdding: .day, value: 1, to: date.endOfMonth)!
-//        let predicate = #Predicate<Workout> {$0.date >= date.startOfMonth && $0.date < endOfMonthAdjustment}
-//        _workouts = Query(filter: predicate, sort: \Workout.date)
-//    }
     var body: some View {
-//        let color = selectedActivity == nil ? .blue : Color(hex: selectedActivity!.hexColor)!
         VStack {
             HStack {
                 ForEach(daysOfWeek.indices, id: \.self) { index in
@@ -63,9 +51,7 @@ struct CalendarView: View {
                                     )
                             )
                             .onTapGesture {
-                                if let workout = workouts.first(where: {$0.startDate.startOfDay == day.startOfDay} ) {
-                                    path.append(workout)
-                                }
+                                tapAction(day)
                             }
                             .overlay(alignment: .bottomTrailing) {
                                 if let count = counts[day.dayInt] {
@@ -96,6 +82,7 @@ struct CalendarView: View {
     }
     
     func setupCounts() {
+        let endOfMonthAdjustment = Calendar.current.date(byAdding: .day, value: 1, to: date.endOfMonth)!
         let filteredWorkouts = workouts.filter { $0.startDate >= date.startOfMonth.startOfDay && $0.startDate <= endOfMonthAdjustment }
         let mappedItems = filteredWorkouts.map{($0.startDate.dayInt, 1)}
         counts = Dictionary(mappedItems, uniquingKeysWith: +)
