@@ -25,7 +25,7 @@ struct SwimWorkoutApp: App {
     @State var workoutStore = WorkoutStore()
     var body: some Scene {
         WindowGroup {
-            WorkoutList()
+            WorkoutScreen()
                 .healthDataAccessRequest(store: store, readTypes: healthDataTypes, trigger: trigger) { result in
                     switch result {
                     case .success(_):
