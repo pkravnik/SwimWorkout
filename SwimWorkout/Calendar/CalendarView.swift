@@ -23,6 +23,7 @@ struct CalendarView: View {
 //    @Environment(WorkoutStore.self) private var workoutStore: WorkoutStore
     let workouts: [Workout]
     @State private var counts = [Int : Int]()
+    @Binding var path: NavigationPath
     
     var endOfMonthAdjustment: Date { Calendar.current.date(byAdding: .day, value: 1, to: date.endOfMonth)! }
     
@@ -61,6 +62,11 @@ struct CalendarView: View {
                                         :  color.opacity(counts[day.dayInt] != nil ? 0.8 : 0.3)
                                     )
                             )
+                            .onTapGesture {
+                                if let workout = workouts.first(where: {$0.startDate.startOfDay == day.startOfDay} ) {
+                                    path.append(workout)
+                                }
+                            }
                             .overlay(alignment: .bottomTrailing) {
                                 if let count = counts[day.dayInt] {
                                     Image(systemName: count <= 50 ? "\(count).circle.fill" : "plus.circle.fill")

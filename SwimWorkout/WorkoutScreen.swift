@@ -9,8 +9,9 @@ import SwiftUI
 
 struct WorkoutScreen: View {
     @Environment(WorkoutStore.self) private var workoutStore: WorkoutStore
+    @State private var navigationPath = NavigationPath()
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $navigationPath) {
             Group {
                 switch workoutStore.loadingState {
                 case .notStarted:
@@ -45,7 +46,7 @@ struct WorkoutScreen: View {
                     }
                 case .loaded(let workouts):
                     VStack(alignment: .leading) {
-                        CalendarView(date: .now, workouts: workouts)
+                        CalendarView(date: .now, workouts: workouts, path: $navigationPath)
                         Text("Latest Workouts:")
                             .font(.title3)
                             .padding(.leading)
