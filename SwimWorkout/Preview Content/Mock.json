@@ -1,5 +1,23 @@
 [
   {
+    "averageMETs": 10.67213798391242,
+    "swimmingLocationType": 1,
+    "timeZone": "Europe/Zurich",
+    "lapLength": 50,
+    "startDate": "2024-12-02 18:54:54",
+    "endDate": "2024-12-02 19:49:24",
+    "distanceSwimming": 2000,
+    "activeEnergyBurned": 602.4079999999994,
+    "samples": [],
+    "heartRate": 2.552042073153184,
+    "swimmingStrokeCount": 1203,
+    "events": [],
+    "indoorWorkout": false,
+    "basalEnergyBurned": 82.41999999999852,
+    "workoutActivityType": 46
+  },
+
+  {
     "timeZone": "Europe/Zurich",
     "averageMETs": 10.741338501009453,
     "lapLength": 50,
